@@ -19,6 +19,6 @@ RUN apt-get update && apt-get install -y \
 
     # Install Dependancies
 RUN apt-get update && apt-get install -y \
-    imagemagick libmagickwand-dev \
+    imagemagick libmagickwand-dev libmagick++-dev \
     && rm -rf /var/lib/apt/lists/*
 

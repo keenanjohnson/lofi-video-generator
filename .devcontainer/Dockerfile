@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y \
     file \
     xz-utils \
     build-essential \
+    uuid-runtime \
     && rm -rf /var/lib/apt/lists/*
 
     # Install Dependancies
